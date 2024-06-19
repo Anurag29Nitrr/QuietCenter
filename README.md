@@ -14,7 +14,7 @@ QuietCenter' is a comprehensive web application focused on mental well-being. Po
 Explore and experience QuietCenter now !!!
 
 - Home page with app description, motivational images, and quotes.                                              - Community page for users to read and share personal stories related to mental health.
-  [3](https://github.com/Anurag29Nitrr/QuietCenter/assets/120914452/20eb1be5-d9b2-4eca-8712-220175cb5e06)         ![7](https://github.com/Anurag29Nitrr/QuietCenter/assets/120914452/eff5a9f6-8eea-4478-b19f-c4cb822f4be1)
+[3](https://github.com/Anurag29Nitrr/QuietCenter/assets/120914452/20eb1be5-d9b2-4eca-8712-220175cb5e06)         ![7](https://github.com/Anurag29Nitrr/QuietCenter/assets/120914452/eff5a9f6-8eea-4478-b19f-c4cb822f4be1)
 
 
 - Music page with soothing music for relaxation.                                                                   - Education page with resources and links for mental well-being.
