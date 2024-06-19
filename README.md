@@ -13,7 +13,8 @@
 
 ### Home Page
 The home page features app description, motivational images, and quotes.
-![Community Page](https://github.com/Anurag29Nitrr/QuietCenter/assets/120914452/eff5a9f6-8eea-4478-b19f-c4cb822f4be1)
+![7](https://github.com/Anurag29Nitrr/QuietCenter/assets/120914452/a15d3113-ba01-4d09-8fb6-cfa4f7745e89)
+
 
 ### Community Page
 A platform for users to read and share personal stories related to mental health.
