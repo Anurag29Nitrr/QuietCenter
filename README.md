@@ -13,19 +13,22 @@
 
 ### Home Page
 The home page features app description, motivational images, and quotes.
-![Home Page](https://github.com/Anurag29Nitrr/QuietCenter/assets/120914452/20eb1be5-d9b2-4eca-8712-220175cb5e06)
+![Community Page](https://github.com/Anurag29Nitrr/QuietCenter/assets/120914452/eff5a9f6-8eea-4478-b19f-c4cb822f4be1)
 
 ### Community Page
 A platform for users to read and share personal stories related to mental health.
-![Community Page](https://github.com/Anurag29Nitrr/QuietCenter/assets/120914452/eff5a9f6-8eea-4478-b19f-c4cb822f4be1)
+![12](https://github.com/Anurag29Nitrr/QuietCenter/assets/120914452/2538d513-1ef4-4f5d-b5dc-9a8f68379dfa)
+
 
 ### Music Page
 Soothing music for relaxation.
-![Music Page](https://github.com/Anurag29Nitrr/QuietCenter/assets/120914452/8821c41e-4d52-4152-9def-2ec761531fbb)
+![Education Page](https://github.com/Anurag29Nitrr/QuietCenter/assets/120914452/cf8f65ac-e4be-434e-a570-6d05b619ba2d)
+
 
 ### Education Page
 Resources and links for mental well-being.
-![Education Page](https://github.com/Anurag29Nitrr/QuietCenter/assets/120914452/cf8f65ac-e4be-434e-a570-6d05b619ba2d)
+![Music Page](https://github.com/Anurag29Nitrr/QuietCenter/assets/120914452/8821c41e-4d52-4152-9def-2ec761531fbb)
+
 
 ### Helplines Page
 Contact information for mental health NGOs and foundations.
@@ -52,5 +55,6 @@ The motive of **QuietCenter** is to provide a safe space for users to connect, s
 
 **QuietCenter** was developed using React, ensuring a clean and intuitive interface. Various components were meticulously crafted for seamless integration and an enhanced user experience. Curated content, including motivational images and educational resources, aligns with the goal of fostering mental well-being.
 
+##
 Regards
 Anurag Singh Thakur
