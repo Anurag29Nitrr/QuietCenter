@@ -6,7 +6,7 @@
 
 - **Frontend**: React, HTML, CSS
 - **Backend**: Node.js, Express, MongoDB
-- **Deployment/Hosting**: Netlify (frontend), Heroku (backend)
+- **Deployment/Hosting**: Netlify
 - **Other Tools/Libraries**: Bootstrap, React Router, Axios
 
 ## Features
