@@ -36,7 +36,7 @@ const Contact = () => {
         };
 
         // Send the form data to the backend endpoint
-        fetch('https://server-innercalm.vercel.app/api/newContact', {
+        fetch('https://quiet-center-by-anurag.vercel.app/api/newContact', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

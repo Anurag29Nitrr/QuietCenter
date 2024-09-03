@@ -22,7 +22,7 @@ const Home = () => {
 
     const FetchPosts = async () => {
         try {
-            const resFromBack = await fetch('https://server-innercalm.vercel.app/api/allPosts', {
+            const resFromBack = await fetch('https://quiet-center-by-anurag.vercel.app/api/allPosts', {
                 method: "GET",
                 headers: {
                     Accept: "application/json",
