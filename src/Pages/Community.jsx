@@ -204,7 +204,7 @@ const Community = () => {
     };
 
     const shareOnWhatsApp = () => {
-        const postLink = `https://innercalm.netlify.app/post/${postToShare}`;
+        const postLink = `https://quiet-center-by-anurag.netlify.app/post/${postToShare}`;
         const whatsappMessage = `Check out this post on InnerCalm: ${postLink}`;
 
         // Construct the WhatsApp share URL
@@ -215,7 +215,7 @@ const Community = () => {
     };
 
     const shareOnInstagram = () => {
-        const postLink = `https://innercalm.netlify.app/post/${postToShare}`;
+        const postLink = `https://quiet-center-by-anurag.netlify.app/post/${postToShare}`;
         // Construct the Instagram share URL
         const instagramShareLink = `https://www.instagram.com/share?url=${encodeURIComponent(postLink)}`;
 
@@ -224,7 +224,7 @@ const Community = () => {
     };
 
     const shareOnTwitter = () => {
-        const postLink = `https://innercalm.netlify.app/post/${postToShare}`;
+        const postLink = `https://quiet-center-by-anurag.netlify.app/post/${postToShare}`;
         const tweetText = "Check out this post on InnerCalm!";
 
         // Construct the Twitter share URL
@@ -235,7 +235,7 @@ const Community = () => {
     };
 
     const copyLink = () => {
-        const postLink = `https://innercalm.netlify.app/post/${postToShare}`;
+        const postLink = `https://quiet-center-by-anurag.netlify.app/post/${postToShare}`;
 
         // Create a temporary input element to copy the link
         const tempInput = document.createElement('input');
