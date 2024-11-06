@@ -44,7 +44,7 @@ const Community = () => {
             return;
         }
 
-        fetch('https://quiet-center-by-anurag.vercel.app/api/newPost', {
+        fetch('https://server-innercalm.vercel.app/api/newPost', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: x,
@@ -89,7 +89,7 @@ const Community = () => {
             // If the post is already supported, call the endpoint to un-support it
             console.log("Un-supporting post", postId);
 
-            fetch(`https://quiet-center-by-anurag.vercel.app/api/notSupportPost?id=${postId}`, {
+            fetch(`https://server-innercalm.vercel.app/api/notSupportPost?id=${postId}`, {
                 method: 'PUT',
             })
                 .then((response) => {
@@ -116,7 +116,7 @@ const Community = () => {
             // If the post is not supported, call the endpoint to support it
             console.log("Supporting post", postId);
 
-            fetch(`https://quiet-center-by-anurag.vercel.app/api/supportPost?id=${postId}`, {
+            fetch(`https://server-innercalm.vercel.app/api/supportPost?id=${postId}`, {
                 method: 'PUT',
             })
                 .then((response) => {
@@ -159,7 +159,7 @@ const Community = () => {
 
     const FetchPosts = async () => {
         try {
-            const resFromBack = await fetch('https://quiet-center-by-anurag.vercel.app/api/allPosts', {
+            const resFromBack = await fetch('https://server-innercalm.vercel.app/api/allPosts', {
                 method: "GET",
                 headers: {
                     Accept: "application/json",

@@ -24,7 +24,7 @@ function Post() {
     useEffect(() => {
         const fetchPostData = async () => {
             try {
-                const response = await fetch(`https://quiet-center-by-anurag.vercel.app/api/post?id=${postId}`, {
+                const response = await fetch(`https://server-innercalm.vercel.app/api/post?id=${postId}`, {
                     method: 'GET',
                 });
 
@@ -50,7 +50,7 @@ function Post() {
 
     const handleSupportPost = () => {
         if (supported) {
-            fetch(`https://quiet-center-by-anurag.vercel.app/api/notSupportPost?id=${postId}`, {
+            fetch(`https://server-innercalm.vercel.app/api/notSupportPost?id=${postId}`, {
                 method: "PUT",
             })
                 .then((response) => {
@@ -65,7 +65,7 @@ function Post() {
                     console.error("Error:", error);
                 });
         } else {
-            fetch(`https://quiet-center-by-anurag.vercel.app/api/supportPost?id=${postId}`, {
+            fetch(`https://server-innercalm.vercel.app/api/supportPost?id=${postId}`, {
                 method: "PUT",
             })
                 .then((response) => {
@@ -83,7 +83,7 @@ function Post() {
     };
 
     const shareOnWhatsApp = () => {
-        const postLink = `https://innercalm.netlify.app/post/${postId}`;
+        const postLink = `https://quiet-center-by-anurag.netlify.app/post/${postId}`;
         const whatsappMessage = `Check out this post on InnerCalm: ${postLink}`;
 
         const whatsappShareLink = `https://api.whatsapp.com/send?text=${encodeURIComponent(whatsappMessage)}`;
@@ -92,14 +92,14 @@ function Post() {
     };
 
     const shareOnInstagram = () => {
-        const postLink = `https://innercalm.netlify.app/post/${postId}`;
+        const postLink = `https://quiet-center-by-anurag.netlify.app/post/${postId}`;
         const instagramShareLink = `https://www.instagram.com/share?url=${encodeURIComponent(postLink)}`;
 
         window.open(instagramShareLink, '_blank');
     };
 
     const shareOnTwitter = () => {
-        const postLink = `https://innercalm.netlify.app/post/${postId}`;
+        const postLink = `https://quiet-center-by-anurag.netlify.app/post/${postId}`;
         const tweetText = "Check out this post on InnerCalm!";
 
         const twitterShareLink = `https://twitter.com/intent/tweet?text=${encodeURIComponent(tweetText)}&url=${encodeURIComponent(postLink)}`;
@@ -108,7 +108,7 @@ function Post() {
     };
 
     const copyLink = () => {
-        const postLink = `https://innercalm.netlify.app/post/${postId}`;
+        const postLink = `https://quiet-center-by-anurag.netlify.app/post/${postId}`;
 
         const tempInput = document.createElement('input');
         tempInput.value = postLink;
